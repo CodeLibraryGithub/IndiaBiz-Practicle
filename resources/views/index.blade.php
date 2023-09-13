@@ -78,8 +78,8 @@
                               }
                               ?>
                            <div class="form-check form-check-inline">
-                              <input class="form-check-input" type="checkbox" name="activities[]" id="inlineCheckbox1" value="{{$value}}" {{$checkbox}}>
-                              <label class="form-check-label" for="inlineCheckbox1">{{$value}}</label>
+                              <input class="form-check-input" type="checkbox" name="activities[]" id="inlineCheckbox-{{$key}}" value="{{$value}}" {{$checkbox}}>
+                              <label class="form-check-label" for="inlineCheckbox-{{$key}}">{{$value}}</label>
                            </div>
                            @endforeach
                            <div><label for="activities[]" class="error"></label></div>
